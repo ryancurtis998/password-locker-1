@@ -1,0 +1,10 @@
+
+print (' ____________________________')
+print ('< welcome to password-locker >')
+print (' ----------------------------')
+print ('  \ ')
+print ('   \       ___ ')
+print ('      oo  // \\ ')
+print ('     (_,\/ \_/ \ ')
+print ('       \ \_/_\_/> ')
+print ('       /_/   \_\ ')
