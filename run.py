@@ -73,7 +73,7 @@ def main():
          code = input().lower()
 
          if code == 'create':
-             print ("Media name ....")
+             print ("Social media name ....")
              Media = input()
 
              print ("User name ....")
@@ -84,11 +84,34 @@ def main():
 
              print(f"New password for {Media} added!\n")
 
+         elif code == 'generate':
+             print ("Social media name ....")
+             Media = input()
 
+             print ("User name ....")
+             username = input()
 
+             print ("preferd password or skip to generate ....")
+             username = input()
 
+             print ("length of password to be generated ....")
+             username = input()
 
- 
+             print(f"New password for {Media} generated\n")
+
+         elif code == 'display':
+             print ("Social media name ....")
+             print ('{Media}')
+
+             print ("User name ....")
+             print ('{username}')
+
+             print ("password ....")
+             print ('{password}')
+
+         elif code == 'exit':
+             print ('Good having you!')
+             break
 
 
 if __name__ == "__main__":
