@@ -1,7 +1,7 @@
 from random import randint
 
 
-class Password:
+class Credential:
     """
     Class which we will use to create the passwords
     """
@@ -19,7 +19,7 @@ class Password:
         """
         Function will add the password into the passwords array
         """
-        Password.passwords.append(self)
+        Credential.passwords.append(self)
         
     def generate_pass(self, length):
         """
