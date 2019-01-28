@@ -1,7 +1,12 @@
+from random import randint
+
+
 class User:
     """
     class that will contain all the details of the user
     """
+
+    password = []  # will store all passwords
 
     def __init__(self, login, password):
         """
@@ -10,10 +15,3 @@ class User:
         self.login = login
         self.password = password
 
-    def user_exists(self, password):
-        """
-        Use the password to confirm user before reviewing the passwords;
-        """
-        if self.password == password:
-            return True
-        return False
