@@ -68,16 +68,22 @@ def main():
     print(f"Welcome {Name}\n")
 
     while True:
-         print("Use these codes : create - creates a new password, generate - generates a new password, display - display passwords, exit -exit the password-locker ") 
+         print("Use these codes : store - store existing password, generate - generates a new password, display - display passwords, exit -exit the password-locker ") 
 
          code = input().lower()
 
-         if code == 'create':
+         if code == 'store':
              print ("Social media name ....")
              Media = input()
 
              print ("User name ....")
              username = input()
+
+             print ("Email ....")
+             Email = input()
+
+             print ("phone 07 ....")
+             phone = input()
 
              print ("password ....")
              password = input()
@@ -91,8 +97,11 @@ def main():
              print ("User name ....")
              username = input()
 
+             print ("Email ....")
+             Email = input()
+
              print ("preferd password or skip to generate ....")
-             generate = input()
+             password = input()
 
              print ("length of password to be generated ....")
              username = input()
@@ -100,7 +109,6 @@ def main():
              print(f"New password for {Media} generated\n")
 
          elif code == 'display':
-            #  for password in view_passwords():
              print ("Social media name ....")
              print (f'{Media}')
 
@@ -108,16 +116,11 @@ def main():
              print (f'{username}')
 
              print ("password ....")
-             print (f'{generate}')
+             print (f'{password}')
 
          elif code == 'exit':
              print ('Good having you!')
              break
-
-
-#    print(f"Account --> {password.account}\n")
-#                         print(f"Username --> {password.username}\n")
-#                         print(f"Password --> {password.password}\n")
 
 if __name__ == "__main__":
     main()
