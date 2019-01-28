@@ -53,7 +53,17 @@ def main():
     print('     (_,\/ \_/ \ ')
     print('       \ \_/_\_/> ')
     print('       /_/   \_\ ')
+    print('')
+    print('      /')
+    print('     /')
+    print(' ____________________________')
+    print('< will help you manage and create passwords >')
+    print('----------------------------')
 
+
+
+
+ 
 
 
 if __name__ == "__main__":
