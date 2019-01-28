@@ -21,7 +21,7 @@ class Credential:
         """
         Credential.passwords.append(self)
         
-    def generate_pass(self, length):
+    def generate_password(self, length):
         """
         Function will generate a random password for the user
         """
