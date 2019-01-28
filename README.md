@@ -35,7 +35,7 @@ Basic python knowledge
 
 -----------------
 
-###How to use
+### How to use
 
 * After cloning, open the existing directory in the terminal
 * run the following comand
