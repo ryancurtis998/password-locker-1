@@ -36,7 +36,7 @@ class Credential:
     @classmethod
     def display_passwords(cls):
         """
-        This function will return all the passwords in the list
+        This function will return all the passwords in the array
         """
         return cls.passwords
      
