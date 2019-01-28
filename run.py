@@ -67,6 +67,24 @@ def main():
 
     print(f"Welcome {Name}\n")
 
+    while True:
+         print("Use these codes : create - creates a new password, generate - generates a new password, display - display passwords, exit -exit the password-locker ") 
+
+         code = input().lower()
+
+         if code == 'create':
+             print ("Media name ....")
+             Media = input()
+
+             print ("User name ....")
+             username = input()
+
+             print ("password ....")
+             password = input()
+
+             print(f"New password for {Media} added!\n")
+
+
 
 
 
