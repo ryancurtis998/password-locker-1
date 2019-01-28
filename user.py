@@ -1,12 +1,7 @@
-from random import randint
-
-
 class User:
     """
     class that will contain all the details of the user
     """
-
-    password = []  # will store all passwords
 
     def __init__(self, login, password):
         """
@@ -14,4 +9,7 @@ class User:
         """
         self.login = login
         self.password = password
+
+
+
 
