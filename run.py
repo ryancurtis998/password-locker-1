@@ -60,6 +60,13 @@ def main():
     print('< will help you manage and create passwords >')
     print('----------------------------')
 
+    print('____signup___')
+
+    Name = input("User Name\n")
+    password = input('Password:\n')
+
+    print(f"Welcome {Name}\n")
+
 
 
 
