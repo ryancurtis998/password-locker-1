@@ -92,7 +92,7 @@ def main():
              username = input()
 
              print ("preferd password or skip to generate ....")
-             username = input()
+             generate = input()
 
              print ("length of password to be generated ....")
              username = input()
@@ -100,19 +100,24 @@ def main():
              print(f"New password for {Media} generated\n")
 
          elif code == 'display':
+            #  for password in view_passwords():
              print ("Social media name ....")
-             print ('{Media}')
+             print (f'{Media}')
 
              print ("User name ....")
-             print ('{username}')
+             print (f'{username}')
 
              print ("password ....")
-             print ('{password}')
+             print (f'{generate}')
 
          elif code == 'exit':
              print ('Good having you!')
              break
 
+
+#    print(f"Account --> {password.account}\n")
+#                         print(f"Username --> {password.username}\n")
+#                         print(f"Password --> {password.password}\n")
 
 if __name__ == "__main__":
     main()
